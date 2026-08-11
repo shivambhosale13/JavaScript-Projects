@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Weather App </title>
+</head>
+<body>
+  <div class="app-container">
+    <div class="search">
+
+      <input type="text" placeholder="Search Country" class="search-input js-search-input">
+
+      <button class="search-icon js-search-icon">
+        <img src="images/search.png" >
+      </button>
+    </div>
+    <div class="Weather-container js-Weather-container">
+        <img src="images/clear.png" class="weather-image">
+        <div class="temperature js-temperature">
+          7&deg;c
+        </div>
+        <div class="city-name js-city-name">
+          New York
+        </div>
+
+        <div class="extra-info">
+          
+          <div class="col">
+            <img src="images/humidity.png" class="weather-icon">
+            <div>
+              <p class="humidity">
+                48%
+              </p>
+              <p>
+              humidity
+              </p>
+            </div>
+          </div>
+
+           <div class="col">
+            <img src="images/wind.png" class="weather-icon">
+            <div>
+              <p class="wind">
+                300 km/h
+              </p>
+              <p>
+                Wind Speed
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

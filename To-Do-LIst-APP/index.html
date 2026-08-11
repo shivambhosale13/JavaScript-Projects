@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>To Do App</title>
+</head>
+<body>
+  <div class="conatiner">
+    <div class="todo-app">
+      <h2>
+        To-Do List 
+        <img src="images/icon.png">
+      </h2>
+
+      <div class="row">
+        <input type="text" class="todo-input js-todo-input" placeholder="Add your task">
+        <button class="add-button js-add-button">
+          Add
+        </button>
+      </div>
+
+      <div class="tasks-container js-tasks-container">
+        <div class="task-container">
+          <img src="images/unchecked.png">
+          <div class="task">Open Your Book</div>
+          <div class="delete-button">
+            &times;
+          </div>
+        </div>
+        
+
+        <div class="task-container">
+          <img src="images/unchecked.png">
+          <div class="task">Open Your Book</div>
+          <div class="delete-button">
+            &times;
+          </div>
+        </div>
+
+        <div class="task-container">
+          <img src="images/unchecked.png" class="js-ischecked unchecked">
+          <div class="task">Open Your Book</div>
+          <div class="delete-button">
+            &times;
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="scripts/index.js">
+
+    </script>
+  </div>
+</body>
+</html>
