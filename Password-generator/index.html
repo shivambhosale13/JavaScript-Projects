@@ -12,13 +12,17 @@
       <span>Random Password </Span>
     </h1>
     <div class="display">
-      <input type="text" class="Password-generate-box" placeholder="Password">
-      <img src="images/copy.png" alt="">
+      <input type="text" class="Password-generate-box js-Password-generate-box"
+      placeholder="Password">
+      <p class="copied js-copied"><img src="images/checkmark.png" alt="">Copied</p>
+      <img src="images/copy.png" class="js-copy-button" alt="">
+
     </div>
-    <button class="Password-generate-button">
+    <button class="Password-generate-button js-Password-generate-button">
       <img src="images/generate.png" alt="">
       Generate Password
     </button>
   </div>
+  <script src="scripts/index.js"></script>
 </body>
 </html>

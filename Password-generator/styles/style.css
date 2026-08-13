@@ -71,3 +71,24 @@ body{
   width: 28px;
   margin-right: 10px;
 }
+
+.copied{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  white-space: nowrap;
+
+  opacity: 0;
+}
+.copied img{
+  background: #fff;
+  width: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+
+}
+
+.copied-show{
+  opacity: 1;
+}
