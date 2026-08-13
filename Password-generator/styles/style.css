@@ -4,3 +4,26 @@
   box-sizing: border-box;
   margin: 0px;
 }
+
+body{
+  background-color: #002339;
+  color: #fff;
+}
+
+.container{
+  margin: 12%;
+  width : 90%;
+  max-width: 700px;
+}
+
+.container h2{
+  color: #fff;
+  width: 220px;
+}
+
+.container h2 span{
+  color: green;
+
+  text-decoration: underline;
+  text-underline-offset: 10px; 
+}
