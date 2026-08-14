@@ -70,3 +70,7 @@
   right: 15px;
   cursor: pointer;
 }
+
+.input-box-visible{
+  opacity: 1;
+}
