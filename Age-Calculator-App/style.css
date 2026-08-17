@@ -1,34 +1,34 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins' , sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg , #4203d9 , #90bafc);
+  background: linear-gradient(135deg, #4203d9, #90bafc);
   color: #fff;
   padding: 10px;
 }
 
-.app{
+.app {
   width: 100%;
   max-width: 600px;
   margin-left: 10%;
   margin-top: 10%;
 }
 
-.app h1{
+.app h1 {
   font-size: 60px;
 }
 
-.app h1 span{
+.app h1 span {
   color: #ffff76;
 }
 
-.age-input{
+.age-input {
   display: flex;
   align-items: center;
   border-radius: 10px;
@@ -37,7 +37,7 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.age-input input{
+.age-input input {
   flex: 1;
   margin-right: 20px;
   padding: 14px 20px;
@@ -45,6 +45,39 @@
   outline: 0;
   font-size: 18px;
   border-radius: 5px;
-  position: relative;
+}
 
+.calculate-button {
+  padding: 10px;
+  background-color: #ffff76;
+  border: none;
+  outline: none;
+}
+
+
+/* MUST BE AT THE BOTTOM */
+@media (max-width: 1000px) {
+
+  .app {
+    margin: 10% 5%;
+  }
+
+  .app h1 {
+    font-size: 40px;
+  }
+
+  .age-input {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .age-input input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .calculate-button {
+    width: 100%;
+  }
 }
